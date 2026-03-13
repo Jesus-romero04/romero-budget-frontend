@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://127.0.0.1:3002/api",
+  baseURL: "https://romero-budget-backend-production.up.railway.app/api"
   headers: { "Content-Type": "application/json" },
 });
 
